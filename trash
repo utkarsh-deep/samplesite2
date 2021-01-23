@@ -1,0 +1,92 @@
+<div class="row posts py-8">
+                <div class="col-lg-8">
+                    <div id="post1">
+                        
+                        <p>— Our obsession, your home</p>
+                        <h5>Works</h5>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div id="post2">
+                        <p>— Beautiful collaborations</p>
+                        <h5>Objects</h5>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row posts">
+                <div class="col-12">
+                    <div id="post3">
+                        <h5>Studio</h5>
+                        <p>— How we work</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+article .posts:nth-child(1){
+    height: 70vh;
+    padding: 5vh 0;
+}
+
+
+#post1{
+    background: url("../images/post1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 30px;
+}
+
+
+#post2{
+    background: url("../images/post2.jpg");    
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 30px;
+}
+
+article .posts:nth-child(2){
+    height: 100vh;
+    padding: 5vh 0;
+}
+
+
+#post3{
+    background: url("../images/post3.jpg");    
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    padding: 0 30px;
+}
+
+
+
+
+
+
+            <div class="row posts">
+                <img src="./images/post1.jpg" alt="Post 1" class="col-sm-8" id="post1">
+                <p>Works<br>-Our obsession, your Home</p>
+
+                <img src="./images/post2.jpg" alt="Post 2" class="col-sm-4" id="post2">
+            </div>
+            <div class="row posts">
+                <img src="./images/post3.jpg" alt="Post 3" class="col-lg-12">
+            </div>
